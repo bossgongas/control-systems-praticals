@@ -1,0 +1,12 @@
+
+clc; clear all; 
+
+%% Ex_2 Controlador Motor DC
+
+sim('Sim_Cap3_ex2')
+tempo3=ans.y3.time;
+y3= ans.y3.signals.values;
+x3 = ans.x3.signals.values;
+plot(tempo3,x3,tempo3,y3,'r')
+xlabel('t(s)');
+ylabel('x(t), y(t)');

@@ -1,0 +1,35 @@
+
+
+
+%Simulação para k=0.5
+clc;clear;
+k=0.5;
+sim('Sym_ex_4.slx')
+tempo=ans.y.time;
+y= ans.y.signals.values;
+plot(tempo,y,'b',LineWidth=1.5)
+xlabel('t(s)');
+ylabel('y(t)');
+grid on;
+
+%% Simulação para k=1.5
+clc;clear;
+k=1.5;
+sim('Sym_ex_4.slx')
+tempo=ans.y.time;
+y1= ans.y.signals.values;
+plot(tempo,y1,'r', LineWidth=1.5)
+xlabel('t(s)');
+ylabel('y(t)');
+
+%% Simulação para k=2
+clc;clear;
+k=2;
+sim('Sym_ex_4.slx')
+tempo=ans.y.time;
+y2= ans.y.signals.values;
+plot(tempo,y2,'r', LineWidth=1.5 ...
+   )
+xlabel('t(s)');
+ylabel('y(t)');
+grid on;
