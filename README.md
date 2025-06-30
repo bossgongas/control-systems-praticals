@@ -10,8 +10,7 @@ This repository gathers all practical assignments carried out during the **Contr
 - 🎓 **Discipline:** Sistemas de Controlo (Control Systems)  
 - 🏫 **Institution:** Universidade de Coimbra – FCTUC  
 - 🧠 **Department:** Electrical and Computer Engineering  
-- 👨‍🎓 **Author:** Gonçalo Tavares Bastos, eusoudebastos@gmail.com
-                  Leonardo Gonçalves Cordeiro, leoleocordeiro@gmail.com
+- 👨‍🎓 **Author:** Gonçalo Tavares Bastos, eusoudebastos@gmail.com / Leonardo Gonçalves Cordeiro, leoleocordeiro@gmail.com
 
 ---
 
